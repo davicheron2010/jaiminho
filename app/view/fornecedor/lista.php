@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de Clientes</title>
+    <title>Lista de Fornecedores</title>
     <?php include_once '/usr/share/nginx/app/view/css.php' ?>
 </head>
 
 <body>
        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="nav-link" href="/home">Home</a>
+            <a class="navbar-brand" href="#">Minha Empresa</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -39,30 +39,30 @@
     <div class="container mt-5">
         <div class="row">
             <div class="col-12">
-                <h1><i class="fa-regular fa-circle-user"></i>Clientes Cadastrados</h1>
+                <h1><i class="fa-regular fa-circle-user"></i>Fornecedores Cadastrados</h1>
                 <table class="table table-striped table-hover table-bordered table-sm">
                     <thead>
                         <tr>
                             <th><i class="fa-solid fa-fingerprint"></i>Código</th>
-                            <th><i class="fa-regular fa-circle-user"></i></i>Nome Completo</th>
-                            <th><i class="fa-regular fa-id-card"></i>CPF</th>
+                            <th><i class="fa-regular fa-circle-user"></i></i>Nome do Fornecedor</th>
+                            <th><i class="fa-solid fa-envelope"></i>CPF</th>
                         </tr>
                         <tr>
                             <td>1</td>
-                            <td>Arthur Morgan</td>
-                            <td>123.456.789-00</td>
+                            <td>cheron</td>
+                            <td></i>000.000.000-00</td>
                         </tr>
                         <tr>
                             <td>2</td>
-                            <td>Junin</td>
-                            <td>111-111-111-11</td>
+                            <td>athos</td>
+                            <td>111.111.111-11k</td>
                         </tr>
                         <tr>
                             <td>3</td>
-                            <td>Sadie Adler</td>
-                            <td>456.789.123-00</td>
+                            <td>junin</td>
+                            <td>222.222.222-22</td>
                         </tr>
-                        <a href="/cliente/cadastro">Cadastrar novo cliente</a>
+                        <a href="/fornecedor/cadastro">Cadastrar novo fornecedor</a>
                     </thead>
                 </table>
             </div>
