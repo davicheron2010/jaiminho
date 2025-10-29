@@ -64,6 +64,7 @@
                             <td>Todas as rianças comer picolé</td>
                         </tr>
                         <a href="/empresa/cadastro">Cadastrar nova empresa</a>
+                        <a href="/empresa/cadastro">Cadastrar nova empresa</a>
                     </thead>
                 </table>
             </div>
